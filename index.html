@@ -1,19 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta name="description" content="Shapor Naghibzadeh Homepage" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@shapor" />
+    <meta name="description" content="Shapor Naghibzadeh Homepage">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@shapor">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="http://shapor.com" />
+    <link rel="canonical" href="http://shapor.com">
     <style>
         body {
-            line-height: 1.4;
+            line-height: 1.6;
+            font-family: 'Roboto', sans-serif;
             font-size: 16px;
             padding: 0 10px;
-            margin: 50px auto;
+            margin: 40px auto;
             max-width: 850px;
+            color: #444;
+        }
+
+        a:visited {
+            color: #7575ff;
+        }
+
+        a:link {
+            color: #11f;
+        }
+
+        h1,
+        h2,
+        h3 {
+            line-height: 1.2;
         }
 
         #main {
@@ -30,85 +46,103 @@
 
 <body>
     <div id="main" style="margin-top: 40px">
-        <h2>Shapor Naghibzadeh</h2>
-
-        <p>TL;DR</p>
-        <ul>
-            <li>I call San Francisco home (yes, the city proper)</li>
-            <li>I'm an engineer who loves to create (and break) things, mostly related to AI and cybersecurity detection,
-                response, and threat intel</li>
-            <li>Founding engineer of <a href="https://blog.google/threat-analysis-group/">TAG</a> after joining Google
-                security under <a href="https://www.youtube.com/watch?v=przDcQe6n5o">exciting</a>
-                <a href="https://googleblog.blogspot.com/2010/01/new-approach-to-china.html">circumstances</a></li>
-            <li><a href="https://www.engadget.com/2018-11-30-chronicle-cybersecurity-alphabet-moonshot-x.html">Launched</a>
-                <a href="https://en.wikipedia.org/wiki/Chronicle_Security">Chronicle</a> out of <a
-                    href="https://x.company">X</a> with co-founders <a href="https://x.com/mikewiacek">Mike</a> &amp; <a
-                    href="https://x.com/stephengillett">Stephen</a></li>
-            <li>Built Backstory with the help of an amazing team [<a
-                    href="https://go.chronicle.security/hubfs/Backstory_WP.pdf">whitepaper</a>, <a
-                    href="https://www.forbes.com/sites/thomasbrewster/2019/03/04/alphabets-chronicle-startup-finally-launchesits-like-google-photos-for-cybersecurity/">Forbes</a>]
-            </li>
-            <li><a href="https://cloud.google.com/blog/topics/inside-google-cloud/the-security-moonshot-joins-google-cloud">Acquired</a>
-                by Google in 2019, where I currently lead Chronicle's generative AI <a
-                    href="https://cloud.google.com/blog/products/identity-security/rsa-introducing-ai-powered-investigation-chronicle-security-operations/">work</a>
-            </li>
-        </ul>
-
-        <p>Interests &nbsp; 👨‍👩‍👧‍👧 ⛷️ 🚴 🔩 ⚙️ 🏁 🏎️ 🏍️ 🛞 📈 💻 🔑 🌁️ </p>
-        <ul>
-            <li>Tinkering with technology. Currently tokenizers, LLM frameworks and prompting in golang</li>
-            <li>Investing in and advising innovative disruptors <a href="#contact">ping me</a></li>
-            <li>Long time Linux geek, using it as my primary OS since the last millennium</li>
-        </ul>
-        <p>Patents &amp; Publications (<a
-                href="https://scholar.google.com/citations?user=e49Yai4AAAAJ&hl=en">citations</a>)</p>
-        <ul>
-            <li>CASTp: computed atlas of surface topography of proteins - <a
-                    href="https://academic.oup.com/nar/article-pdf/31/13/3352/9487117/gkg512.pdf">PDF</a>, <a
-                    href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e49Yai4AAAAJ&citation_for_view=e49Yai4AAAAJ:2osOgNQ5qMEC">Google
-                Scholar</a> (2003)</li>
-            <li>Message control system in a shared hosting environment - <a
-                    href="https://patentimages.storage.googleapis.com/94/aa/63/27a940b159c662/US20070297408A1.pdf">PDF</a>
-                (2007)</li>
-            <li>Gathering indicators of compromise for security threat detection - <a
-                    href="https://patentimages.storage.googleapis.com/28/49/2b/800d95b5db83fb/US10469509.pdf">PDF</a>
-                (2016)</li>
-            <li>Efficient Processing of Computer Security Data - <a
-                    href="https://patentimages.storage.googleapis.com/22/7d/47/340954e3f73b81/US11093607.pdf">PDF</a>
-                (2018)</li>
-            <li>User interfaces for presenting cybersecurity data - <a
-                    href="https://patentimages.storage.googleapis.com/54/69/71/bc018a8b40db17/US10958534.pdf">PDF</a>
-                (2021)</li>
-            <li>Parsing unlabeled computer security data logs - <a
-                    href="https://patentimages.storage.googleapis.com/62/eb/a0/208f610b10eb06/US11367009.pdf">PDF</a>
-                (2022)</li>
-        </ul>
-
-        <p>Some things I've talked about</p>
-        <ul>
-            <li>Avoiding Data Platform Pitfalls Building Security Products (2023)</li>
-            <li>Learnings from Operation Aurora - <a href="https://www.nvtc.org">NVTC</a> Capital CyberSecurity Summit
-                Keynote (2020)</li>
-            <li>Fighting Cyberattacks on a Global Scale with Security Analytics, 2020</li>
-            <li>The Magic Behind Security at Google (Leaders Exchange: The Magician at the NoMad, New York, NY), 2020
-            </li>
-            <li>Leveraging Security Telemetry at Planet Scale (Google Cloud Security Summit, Washington DC), 2020</li>
-            <li>The Benefits of Good Data and Unmatched Security Capabilities (Tanium CONVERGE, Nashville, TN), 2019
-            </li>
-            <li>Reimagining Enterprise Security (Leaders Forum: Security, Toronto, Canada), 2019</li>
-            <li>The State of OT Cybersecurity in the Utilities Industry (<a
-                    href="https://www.atlanticcouncil.org/">The Atlantic Council</a>, Washington DC), 2019</li>
-            <li>Security Analytics as a Force Multiplier for Threat Hunting (Tenable Edge, Atlanta, GA), 2019</li>
-        </ul>
-
-        <p id="contact">Here's where you can find me online</p>
-        <ul>
-            <li>✉️ <a href="mailto:shapor@shapor.com">shapor@shapor.com</a></li>
-        	<li><img class="favicon" src="https://github.com/favicon.ico" alt="Github"> <a href="https://github.com/shapor">shapor</a></li>
-	        <li><img class="favicon" src="https://linkedin.com/favicon.ico" alt="Linkedin"> <a href="https://linkedin.com/in/shapor">shapor</a></li>
-	        <li><img class="favicon" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail"> <a href="mailto:shapor@gmail.com">shapor@</a></li>
-	        <li><img class="favicon" src="https://x.com/favicon.ico" alt="X (Twitter)"> <a href="https://x.com/shapor">shapor@</a></li>
-        </ul>
+        <h1>Shapor Naghibzadeh</h1>
+        <div>
+            ✉
+            <a href="mailto:shapor@shapor.com">
+                shapor@shapor.com
+            </a> &nbsp; · &nbsp;
+            <a href="https://github.com/shapor">
+                <img class="favicon" src="https://github.com/favicon.ico" alt="Github"> shapor
+            </a> &nbsp; · &nbsp;
+            <a href="https://linkedin.com/in/shapor">
+                <img class="favicon" src="https://linkedin.com/favicon.ico" alt="Linkedin"> shapor
+            </a> &nbsp; · &nbsp;
+            <a href="mailto:shapor@gmail.com">
+                <img class="favicon" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail"> shapor@
+            </a> &nbsp; · &nbsp;
+            <a href="https://x.com/shapor">
+                <img class="favicon" src="https://x.com/favicon.ico" alt="X (Twitter)"> shapor@
+            </a> &nbsp; · &nbsp;
+            <a href="https://chat.openai.com/g/g-ptHYHc4AN-shaporgpt">
+                <img class="favicon" src="https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png"
+                    alt="ChatGPT"> ShaporGPT
+            </a>
+        </div>
     </div>
+
+    <h3>TL;DR</h3>
+    <ul>
+        <li>I call San Francisco home (yes, the city proper)</li>
+        <li>I'm an engineer who loves to create (and break) things, mostly related to AI and cybersecurity detection,
+            response, and threat intel</li>
+        <li>Founding engineer of <a href="https://blog.google/threat-analysis-group/">TAG</a> after joining Google
+            security under <a href="https://www.youtube.com/watch?v=przDcQe6n5o">exciting</a>
+            <a href="https://googleblog.blogspot.com/2010/01/new-approach-to-china.html">circumstances</a>
+        </li>
+        <li><a href="https://www.engadget.com/2018-11-30-chronicle-cybersecurity-alphabet-moonshot-x.html">Launched</a>
+            <a href="https://en.wikipedia.org/wiki/Chronicle_Security">Chronicle</a> out of <a
+                href="https://x.company">X</a> with co-founders <a href="https://x.com/mikewiacek">Mike</a> &amp; <a
+                href="https://x.com/stephengillett">Stephen</a>
+        </li>
+        <li>Built Backstory with the help of an amazing team [<a
+                href="https://go.chronicle.security/hubfs/Backstory_WP.pdf">whitepaper</a>, <a
+                href="https://www.forbes.com/sites/thomasbrewster/2019/03/04/alphabets-chronicle-startup-finally-launchesits-like-google-photos-for-cybersecurity/">Forbes</a>]
+        </li>
+        <li><a
+                href="https://cloud.google.com/blog/topics/inside-google-cloud/the-security-moonshot-joins-google-cloud">Acquired</a>
+            by Google in 2019, where I currently lead Chronicle's generative AI <a
+                href="https://cloud.google.com/blog/products/identity-security/rsa-introducing-ai-powered-investigation-chronicle-security-operations/">work</a>
+        </li>
+    </ul>
+
+    <h3>Interests &nbsp; 👨‍👩‍👧‍👧 ⛷️ 🚴 🔩 ⚙️ 🏁 🏎️ 🏍️ 🛞 📈 💻 🔑 🌁️ </h3>
+    <ul>
+        <li>Tinkering with technology. Currently tokenizers, LLM frameworks and prompting in golang</li>
+        <li>Investing in and advising innovative disruptors <a href="#contact">ping me</a></li>
+        <li>Long time Linux geek, using it as my primary OS since the last millennium</li>
+    </ul>
+    <h3>Patents &amp; Publications (<a
+            href="https://scholar.google.com/citations?user=e49Yai4AAAAJ&hl=en">citations</a>)</h3>
+    <ul>
+        <li>CASTp: computed atlas of surface topography of proteins - <a
+                href="https://academic.oup.com/nar/article-pdf/31/13/3352/9487117/gkg512.pdf">PDF</a>, <a
+                href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e49Yai4AAAAJ&citation_for_view=e49Yai4AAAAJ:2osOgNQ5qMEC">Google
+                Scholar</a> (2003)</li>
+        <li>Message control system in a shared hosting environment - <a
+                href="https://patentimages.storage.googleapis.com/94/aa/63/27a940b159c662/US20070297408A1.pdf">PDF</a>
+            (2007)</li>
+        <li>Gathering indicators of compromise for security threat detection - <a
+                href="https://patentimages.storage.googleapis.com/28/49/2b/800d95b5db83fb/US10469509.pdf">PDF</a>
+            (2016)</li>
+        <li>Efficient Processing of Computer Security Data - <a
+                href="https://patentimages.storage.googleapis.com/22/7d/47/340954e3f73b81/US11093607.pdf">PDF</a>
+            (2018)</li>
+        <li>User interfaces for presenting cybersecurity data - <a
+                href="https://patentimages.storage.googleapis.com/54/69/71/bc018a8b40db17/US10958534.pdf">PDF</a>
+            (2021)</li>
+        <li>Parsing unlabeled computer security data logs - <a
+                href="https://patentimages.storage.googleapis.com/62/eb/a0/208f610b10eb06/US11367009.pdf">PDF</a>
+            (2022)</li>
+    </ul>
+
+    <h3>Some things I've talked about</h3>
+    <ul>
+        <li>Avoiding Data Platform Pitfalls Building Security Products (2023)</li>
+        <li>Learnings from Operation Aurora - <a href="https://www.nvtc.org">NVTC</a> Capital CyberSecurity Summit
+            Keynote (2020)</li>
+        <li>Fighting Cyberattacks on a Global Scale with Security Analytics, 2020</li>
+        <li>The Magic Behind Security at Google (Leaders Exchange: The Magician at the NoMad, New York, NY), 2020
+        </li>
+        <li>Leveraging Security Telemetry at Planet Scale (Google Cloud Security Summit, Washington DC), 2020</li>
+        <li>The Benefits of Good Data and Unmatched Security Capabilities (Tanium CONVERGE, Nashville, TN), 2019
+        </li>
+        <li>Reimagining Enterprise Security (Leaders Forum: Security, Toronto, Canada), 2019</li>
+        <li>The State of OT Cybersecurity in the Utilities Industry (<a href="https://www.atlanticcouncil.org/">The
+                Atlantic Council</a>, Washington DC), 2019</li>
+        <li>Security Analytics as a Force Multiplier for Threat Hunting (Tenable Edge, Atlanta, GA), 2019</li>
+    </ul>
+
 </body>
+
 </html>
