@@ -25,12 +25,25 @@
             color: #444;
         }
 
-        a:visited {
-            color: #7575ff;
+        a {
+            text-decoration: none;
         }
 
-        a:link {
-            color: #11f;
+        a:not(.link-bar a) {
+            color: #546e7a;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(84, 110, 122, 0.3);
+            transition: color 0.2s, border-bottom 0.2s;
+        }
+
+        a:visited:not(.link-bar a) {
+            color: #616161;
+            border-bottom: 1px solid rgba(97, 97, 97, 0.3);
+        }
+
+        a:hover:not(.link-bar a) {
+            color: #263238;
+            border-bottom: 1px solid rgba(38, 50, 56, 0.8);
         }
 
         h1,
@@ -103,6 +116,19 @@
             margin-top: 0;
             line-height: 1.2;
         }
+        
+        .back-to-home {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #546e7a;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(84, 110, 122, 0.3);
+        }
+        
+        .back-to-home:hover {
+            color: #263238;
+            border-bottom: 1px solid rgba(38, 50, 56, 0.8);
+        }
     </style>
     <title>The Perks Were Nice—But Time for Something New - Shapor Naghibzadeh</title>
 </head>
@@ -127,7 +153,7 @@
             </figure>
 
             <div style="margin: 20px 0 20px 30px; border-left: 4px solid #4285F4; padding-left: 15px;">
-                <p style="font-style: italic; margin-bottom: 10px;"><strong>Eighteen years. A long time to build. A long time to fail, learn, and start again.</strong></p>
+                <p style="font-style: italic; margin-bottom: 10px;"><strong>Eighteen years. A long time to build. A long time to learn, evolve, and start again.</strong></p>
             </div>
 
             <p>So last week, I made one of the hardest decisions of my career: leaving Google after nearly two decades.</p>
